@@ -1,0 +1,28 @@
+/*Inserta tu css aqui*/
+*{
+	margin: 0px;
+}
+body{
+	background-color: #DFDFDF;
+}
+header{
+	background-color: #009688;
+	height: 120px;
+	padding-top: 50px;
+}
+.box-chat{
+	box-shadow: 1px 1px 1px black;
+}
+.box-nav{
+	background-color: #DFDFDF;
+	border-right: 2px solid silver;
+	padding: 2%;
+}
+.box-nav img{
+     width: 25px;
+     border-radius: 100%;
+}
+/* -- UTILITIES -- */
+.pd-0{
+	padding: 0px;
+}
