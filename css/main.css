@@ -16,21 +16,23 @@ header{
 .box-nav{
 	background-color: #DFDFDF;
 	border-right: 2px solid silver;
-	padding: 12px;
+	padding: 15px;
     padding-bottom: 13px;
+    border-bottom: 1px solid silver;
 }
-.box-nav img, .box-title img {
-     width: 25px;
-     height: 25px;
+.box-nav img{
+     width: 28px;
+     height: 26px;
      border-radius: 100%;
 }
-.icon{
+.box-chat i, .box-title i{
 	float: right;
 	color: gray;
+
 }
 .box-title{
-	padding: 12px;
 	background-color: #DFDFDF;
+	padding: 0px;
 }
 .box-title img, {
 	width: 25px;
@@ -70,6 +72,9 @@ input {
     height: 30px;
     border-radius: 100%
 }
+span{
+	font-weight: bold;
+}
 i{
 	float: right;
     margin-top: -40px;
@@ -78,7 +83,55 @@ i{
     font-style: normal;
     font-size: 1.2rem;
 }
+.box-group {
+	border-bottom: 1px solid silver;
+}
+.bg-chat{
+	background-image: url('../image/chat-panel-bg.png');
+	height: 493px;
+	padding: 20px;
+}
+.buble-chat{
+	background-color: white;
+	padding: 9px;
+	border-radius: 5px;
+	width: 293px;
+    padding-bottom: 12px; 
+}
+h6{
+	margin-top: 0px;
+    margin-bottom: 2px;
+}
+.buble-chat i{
+	margin-top: -3px;
+    margin-right: 0px;
+    font-size: 1rem;
+}
+.buble-chat p{
+	font-size: 1.2rem;
+	margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.buble-green{
+	background-color: #DFF7C7;
+	border-radius: 5px;
+	padding: 5px 10px; 
+    margin-top: -2px;
+    margin-right: 0px;
+}
+.buble-green p {
+	margin: 0px;
+}
+
 /* -- UTILITIES -- */
+.mv {
+    margin-right: -181px;
+    margin-top: 44px;
+}
+.mt-86{
+	margin-top: 86px;
+}
 .pd-0{
 	padding: 0px;
 }
@@ -86,15 +139,28 @@ i{
 	float: right;
 	font-size: 20px;
 }
+.mt-40{
+	margin-top: -40px !important;
+}
+.mr-mt{
+	margin-top: -40px !important;
+	margin-right: 42px !important;
+}
 .fl-mr{
 	float: left;
 	margin-left: 10px;
+}
+.mt-0{
+	margin-top: 0px;
 }
 .mr-10{
 	margin-right: 10px;
 }
 .mt-10{
 	margin-top: -10px;
+}
+.mt-3{
+	margin-top: 3px;
 }
 .mt-0{
 	margin-top: 0px;
@@ -104,5 +170,20 @@ i{
 }
 .mb-2{
 	margin-bottom: -2px;
+}
+.float{
+	float: right;
+}
+.text-tur{
+	color: #51ADD3;
+}
+.text-pink{
+	color: #B02D7E;
+}
+.text-green{
+	color: #59C1AA; 
+}
+.text-mostaza{
+	color: #D0A940
 }
 
