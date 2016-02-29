@@ -1,7 +1,7 @@
-/*Inserta tu css aqui*/
 *{
 	margin: 0px;
 }
+
 body{
 	background-color: #DFDFDF;
 }
@@ -16,13 +16,93 @@ header{
 .box-nav{
 	background-color: #DFDFDF;
 	border-right: 2px solid silver;
-	padding: 2%;
+	padding: 12px;
+    padding-bottom: 13px;
 }
-.box-nav img{
+.box-nav img, .box-title img {
      width: 25px;
+     height: 25px;
      border-radius: 100%;
+}
+.icon{
+	float: right;
+	color: gray;
+}
+.box-title{
+	padding: 12px;
+	background-color: #DFDFDF;
+}
+.box-title img, {
+	width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+p{
+	font-size: 1.2rem;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.box-input {
+	background-color: white;
+	padding: 10px;
+	font-size: 1.2rem;
+	border-bottom: 1px solid silver;
+}
+input {
+	border: 1px solid silver;
+	border-radius: 5px;
+	background-color: white;
+	display: block;
+	width: 100%;
+	padding: 4px 34px;
+}
+.icon-search{
+	position: absolute;
+	margin: 8px 10px;
+}
+.lista-msn{
+	margin: 0px;
+	background: white;
+	border-bottom: 1px solid silver;
+}
+.fz-img{
+	width: 30px;
+    height: 30px;
+    border-radius: 100%
+}
+i{
+	float: right;
+    margin-top: -40px;
+    margin-right: 10px;
+    color: silver;
+    font-style: normal;
+    font-size: 1.2rem;
 }
 /* -- UTILITIES -- */
 .pd-0{
 	padding: 0px;
 }
+.style{
+	float: right;
+	font-size: 20px;
+}
+.fl-mr{
+	float: left;
+	margin-left: 10px;
+}
+.mr-10{
+	margin-right: 10px;
+}
+.mt-10{
+	margin-top: -10px;
+}
+.mt-0{
+	margin-top: 0px;
+}
+.ml-10{
+	margin-left: -10px;
+}
+.mb-2{
+	margin-bottom: -2px;
+}
+
